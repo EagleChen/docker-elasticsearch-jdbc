@@ -13,4 +13,4 @@ RUN \
 COPY sqljdbc42.jar /elasticsearch-jdbc/lib/
 COPY docker-entrypoint.sh /
 
-ENTRYPOINT ["docker-entrypoint.sh"]
+ENTRYPOINT ["/docker-entrypoint.sh"]
