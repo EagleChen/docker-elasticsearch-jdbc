@@ -4,6 +4,7 @@ MAINTAINER Eagle Chen <chygr1234@gmail.com>
 ENV VERSION=2.1.1.2
 
 RUN \
+  apt-get update && apt-get install cron -y && \
   cd /tmp && \
   wget http://xbib.org/repository/org/xbib/elasticsearch/importer/elasticsearch-jdbc/$VERSION/elasticsearch-jdbc-$VERSION-dist.zip && \
   unzip elasticsearch-jdbc-$VERSION-dist.zip && \
