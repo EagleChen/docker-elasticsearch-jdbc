@@ -1,7 +1,7 @@
 FROM java:8-jre
 MAINTAINER Eagle Chen <chygr1234@gmail.com>
 
-ENV VERSION=2.1.1.2
+ENV VERSION=2.2.1.0
 
 RUN \
   cd /tmp && \
